@@ -12,5 +12,5 @@ curl -H "Content-Type: application/json" -X POST -d '{"username":"DevPreview","p
 curl -H "Content-Type: application/json" -X POST -d '{"username":"DevPreview","password":"Equinox1!"}' http://0.0.0.0:8080/proxy/8019/auth/basic/qa-sulu.equinox.com/ &&
 curl -H "Content-Type: application/json" -X POST -d '{"username":"DevPreview","password":"Equinox1!"}' http://0.0.0.0:8080/proxy/8019/auth/basic/qa-kirk.equinox.com/ &&
 curl -H "Content-Type: application/json" -X POST -d '{"username":"DevPreview","password":"Equinox1!"}' http://0.0.0.0:8080/proxy/8019/auth/basic/stag.equinox.com/ &&
-curl -H "Content-Type: application/json" -X POST -d '{"username":"DevPreview","password":"Equinox1!"}' http://0.0.0.0:8080/proxy/8019/auth/basic/pre-prod.equinox.com/ &
+curl -H "Content-Type: application/json" -X POST -d '{"username":"DevPreview","password":"Equinox1!"}' http://0.0.0.0:8080/proxy/8019/auth/basic/preprod.equinox.com/ &
 exec /browsermob-proxy-2.1.0-beta-3/bin/browsermob-proxy -port 8080 --use-littleproxy false
